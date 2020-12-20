@@ -1,0 +1,51 @@
+create i1 queue
+create i1 stack 
+pop i2
+pop s99
+create i2 queue
+create i2 stack
+push i1 10
+push i2 20
+push i1 20
+push i2 10
+create s99 stack
+create s99 queue
+push s99 Hola 
+push s99 Cooper
+pop i2
+push i2 200 
+pop s99
+push s99 Moon
+pop i1
+pop i1
+push i1 100 
+push i2 150
+pop s99
+pop s99
+create d99 stack
+push d99 3.14
+push d99 -0.123
+push d99 -0.123
+pop d99
+pop s99
+pop d99 
+push i1 100
+push i2 100 
+create dHolaCooper stack
+create dHolaMoon queue
+push dHolaCooper 20
+push dHolaMoon 20
+pop dHolaMoon 20 
+pop dHolaMoon 20 
+pop i1
+pop i2
+pop dHelloWorld
+pop dHelloPlanet
+pop sR2D2
+create sR2D2 queue
+pop sR2D2
+push sR2D2 918273
+push sR2D2 RACECAR
+pop sR2D2
+pop dHolaCooper
+pop dHolaCooper

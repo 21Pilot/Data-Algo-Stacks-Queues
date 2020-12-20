@@ -1,0 +1,76 @@
+PROCESSING COMMAND: create i1 queue
+PROCESSING COMMAND: create i1 stack 
+ERROR: This name already exists!
+PROCESSING COMMAND: pop i2
+ERROR: This name does not exist!
+PROCESSING COMMAND: pop s99
+ERROR: This name does not exist!
+PROCESSING COMMAND: create i2 queue
+PROCESSING COMMAND: create i2 stack
+ERROR: This name already exists!
+PROCESSING COMMAND: push i1 10
+PROCESSING COMMAND: push i2 20
+PROCESSING COMMAND: push i1 20
+PROCESSING COMMAND: push i2 10
+PROCESSING COMMAND: create s99 stack
+PROCESSING COMMAND: create s99 queue
+ERROR: This name already exists!
+PROCESSING COMMAND: push s99 Hola 
+PROCESSING COMMAND: push s99 Cooper
+PROCESSING COMMAND: pop i2
+Value popped: 20
+PROCESSING COMMAND: push i2 200 
+PROCESSING COMMAND: pop s99
+Value popped: Cooper
+PROCESSING COMMAND: push s99 Moon
+PROCESSING COMMAND: pop i1
+Value popped: 10
+PROCESSING COMMAND: pop i1
+Value popped: 20
+PROCESSING COMMAND: push i1 100 
+PROCESSING COMMAND: push i2 150
+PROCESSING COMMAND: pop s99
+Value popped: Moon
+PROCESSING COMMAND: pop s99
+Value popped: Hola
+PROCESSING COMMAND: create d99 stack
+PROCESSING COMMAND: push d99 3.14
+PROCESSING COMMAND: push d99 -0.123
+PROCESSING COMMAND: push d99 -0.123
+PROCESSING COMMAND: pop d99
+Value popped: -0.123
+PROCESSING COMMAND: pop s99
+ERROR: This list is empty!
+PROCESSING COMMAND: pop d99 
+Value popped: -0.123
+PROCESSING COMMAND: push i1 100
+PROCESSING COMMAND: push i2 100 
+PROCESSING COMMAND: create dHolaCooper stack
+PROCESSING COMMAND: create dHolaMoon queue
+PROCESSING COMMAND: push dHolaCooper 20
+PROCESSING COMMAND: push dHolaMoon 20
+PROCESSING COMMAND: pop dHolaMoon 20 
+Value popped: 20
+PROCESSING COMMAND: pop dHolaMoon 20 
+ERROR: This list is empty!
+PROCESSING COMMAND: pop i1
+Value popped: 100
+PROCESSING COMMAND: pop i2
+Value popped: 10
+PROCESSING COMMAND: pop dHelloWorld
+ERROR: This name does not exist!
+PROCESSING COMMAND: pop dHelloPlanet
+ERROR: This name does not exist!
+PROCESSING COMMAND: pop sR2D2
+ERROR: This name does not exist!
+PROCESSING COMMAND: create sR2D2 queue
+PROCESSING COMMAND: pop sR2D2
+ERROR: This list is empty!
+PROCESSING COMMAND: push sR2D2 918273
+PROCESSING COMMAND: push sR2D2 RACECAR
+PROCESSING COMMAND: pop sR2D2
+Value popped: 918273
+PROCESSING COMMAND: pop dHolaCooper
+Value popped: 20
+PROCESSING COMMAND: pop dHolaCooper
+ERROR: This list is empty!
